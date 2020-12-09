@@ -1,0 +1,55 @@
+[
+    {
+        "id": "XXX1",
+        "createdAt": "2020-10-05T11:17:20.779Z",
+        "firstName": "Kade",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/SULiik/128.jpg",
+        "email": "Louisa_Skiles@hotmail.com",
+        "lastName": "Senger",
+        "jobTitle": "Internal Applications Designer",
+        "latitude": "47.8721",
+        "longitude": "-137.9852",
+        "phone": "(918) 592-3724",
+        "favouriteColor": "#062118"
+    },
+    {
+        "id": "XXX2",
+        "createdAt": "1-2-2020",
+        "firstName": "Steffen",
+        "avatar": "google.com",
+        "email": "steffen.gray@gmail.com",
+        "lastName": "Gray",
+        "jobTitle": "Manager",
+        "latitude": "25.00",
+        "longitude": "30.67",
+        "phone": "9900776655",
+        "favouriteColor": "Red"
+    },
+    {
+        "id": "XXX3",
+        "createdAt": "1-3-2020",
+        "firstName": "Alex",
+        "avatar": "google.com",
+        "email": "alex.fraser@gmail.com",
+        "lastName": "Fraser",
+        "jobTitle": "Senior Analyst",
+        "latitude": "12.00",
+        "longitude": "40.67",
+        "phone": "9900007766",
+        "favouriteColor": "Yellow"
+    },
+    {
+        "id": "XXX4",
+        "createdAt": "1-4-2020",
+        "firstName": "Bob",
+        "avatar": "google.com",
+        "email": "bob.lee@gmail.com",
+        "lastName": "Lee",
+        "jobTitle": "Specialist",
+        "latitude": "45.00",
+        "longitude": "89.67",
+        "phone": "9900000055",
+        "favouriteColor": "Purple"
+    }
+    
+]

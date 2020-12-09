@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  VMDirectory
+
+  Created by Gauri Rohan on 06/12/20.
+  Copyright © 2020 Gauri. All rights reserved.
+*/
+
+"VirginMoney" = "Virgin Money Directory";
+"LocationNotFound" = "Location not specified";
+"profileImage" = "Employee profile image";
+"Book" = "Book";
+"Cancel" = "Cancel";
+"roomBookingMessage" = "Do you want to book meeting Room";
+"Book Meeting Room" = "Book Meeting Room";

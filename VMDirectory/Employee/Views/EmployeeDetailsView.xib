@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EmployeeDetailsView" customModule="VMDirectory" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ure-ve-GGu">
+                    <rect key="frame" x="20" y="185" width="728" height="306"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Aui-xA-hC3">
+                            <rect key="frame" x="0.0" y="0.0" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhd-ai-IFK">
+                                    <rect key="frame" x="0.0" y="0.0" width="728" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Z6U-mv-xSc">
+                            <rect key="frame" x="0.0" y="45" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-hI-fhQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XXXXXXXXX" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9a-qT-cVa">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KxM-Sk-8TN">
+                            <rect key="frame" x="0.0" y="90" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwH-Zq-ey5">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Associate" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCq-8I-goN">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8lK-da-MBs">
+                            <rect key="frame" x="0.0" y="135" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create at" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzB-WX-ghP">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1-2-2020" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5X7-h6-2dl">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rGa-oB-wCh">
+                            <rect key="frame" x="0.0" y="180" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJL-U1-7pD">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasgow" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ic-V1-7cO">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Bxq-de-aCf">
+                            <rect key="frame" x="0.0" y="225" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXa-Ua-7E2">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z4R-HM-oO7">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <state key="normal" title="steve.Fox@gmail.com"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZTu-aI-2GN">
+                            <rect key="frame" x="0.0" y="270" width="728" height="36"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClQ-Wo-tgZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Bw1-Jz-U8p">
+                                    <rect key="frame" x="364" y="0.0" width="364" height="36"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    <state key="normal" title="9900000011"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <variation key="heightClass=compact" spacing="6"/>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMf-iz-jMV">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="89"/>
+                    <color key="backgroundColor" name="brandingColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="89" id="b3I-ne-oXE"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="employeeDefaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="JG5-lx-eNC">
+                    <rect key="frame" x="324" y="15" width="120" height="120"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <accessibility key="accessibilityConfiguration" label="Employee Image"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="2tI-gl-6sd"/>
+                        <constraint firstAttribute="width" constant="120" id="mGv-3H-2i5"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JG5-lx-eNC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3OP-5F-LjE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ure-ve-GGu" secondAttribute="trailing" constant="20" id="6S5-dS-qaq"/>
+                <constraint firstItem="Ure-ve-GGu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ASC-Vi-7Wk"/>
+                <constraint firstItem="iMf-iz-jMV" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="EpU-Ta-tJP"/>
+                <constraint firstItem="Ure-ve-GGu" firstAttribute="top" secondItem="JG5-lx-eNC" secondAttribute="bottom" constant="10" id="JVC-nS-ga5"/>
+                <constraint firstItem="iMf-iz-jMV" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="N9Q-Rq-mZC"/>
+                <constraint firstItem="JG5-lx-eNC" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="jNO-Ls-FZD"/>
+                <constraint firstItem="iMf-iz-jMV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jZu-uH-aIS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ure-ve-GGu" secondAttribute="bottom" constant="2.5" id="lbH-x9-Jgn"/>
+                <constraint firstItem="Ure-ve-GGu" firstAttribute="top" secondItem="JG5-lx-eNC" secondAttribute="bottom" constant="50" id="whV-E5-CRP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="lbH-x9-Jgn"/>
+                    <exclude reference="JVC-nS-ga5"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <include reference="lbH-x9-Jgn"/>
+                    <include reference="JVC-nS-ga5"/>
+                    <exclude reference="whV-E5-CRP"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="avatar" destination="JG5-lx-eNC" id="OFy-w0-q8L"/>
+                <outlet property="createdAt" destination="5X7-h6-2dl" id="Myx-Q9-qCG"/>
+                <outlet property="email" destination="z4R-HM-oO7" id="Mdv-18-QR2"/>
+                <outlet property="employeeID" destination="f9a-qT-cVa" id="0kp-KX-NMZ"/>
+                <outlet property="employeeName" destination="Vhd-ai-IFK" id="usw-eH-d4J"/>
+                <outlet property="favoriteColorView" destination="iMf-iz-jMV" id="a0E-M1-seN"/>
+                <outlet property="jobTitle" destination="nCq-8I-goN" id="iAN-1G-9eE"/>
+                <outlet property="location" destination="6ic-V1-7cO" id="tA5-si-yXq"/>
+                <outlet property="phoneNumber" destination="Bw1-Jz-U8p" id="QeH-AR-BVo"/>
+            </connections>
+            <point key="canvasLocation" x="136.23188405797103" y="125.89285714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="employeeDefaultImage" width="300" height="300"/>
+        <namedColor name="brandingColor">
+            <color red="0.76899999380111694" green="0.0080000003799796104" blue="0.0080000003799796104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
