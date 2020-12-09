@@ -53,6 +53,7 @@ class EmployeeDetailsView: UIView {
         avatarImageURL = URL(string: employeeObject.avatar)
         favoriteColorView.backgroundColor = UIColor(hex: employeeObject.favouriteColor)
         findLocation(latitude: employeeObject.latitude, longitude: employeeObject.longitude)
+        self.backgroundColor = UIColor(named: "viewBackgroundColor")
         configureAccessibility(employeeObject)
         configureAvatar()
     }

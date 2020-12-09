@@ -57,6 +57,7 @@ class MeetingRoomView: UIView {
         meetingRoomID.text = meetingRoomObject.meetingRoomID
         status.text = meetingRoomObject.isOccupied ? Status.occupied.rawValue : Status.vacate.rawValue
         updateBookNowButton(with: meetingRoomObject.isOccupied)
+        self.backgroundColor = UIColor(named: "viewBackgroundColor")
     }
     
     func updateBooking() {

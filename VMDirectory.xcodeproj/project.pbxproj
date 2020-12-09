@@ -237,7 +237,6 @@
 				66C323A2257BEFFE002C7C9A /* VMDirectoryTests */,
 				66C323AD257BEFFE002C7C9A /* VMDirectoryUITests */,
 				66C3238A257BEFFC002C7C9A /* Products */,
-				66A67331257FFF7D00B207BF /* VMDirectory copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +263,7 @@
 				66C32392257BEFFC002C7C9A /* Main.storyboard */,
 				66C32397257BEFFE002C7C9A /* LaunchScreen.storyboard */,
 				66C3239A257BEFFE002C7C9A /* Info.plist */,
+				66A67331257FFF7D00B207BF /* VMDirectory copy-Info.plist */,
 			);
 			path = VMDirectory;
 			sourceTree = "<group>";
@@ -632,7 +632,7 @@
 					BUILD_TEST,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "VMDirectory copy-Info.plist";
+				INFOPLIST_FILE = "VMDirectory_TEST-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,7 +651,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J87P9FVRFR;
-				INFOPLIST_FILE = "VMDirectory copy-Info.plist";
+				INFOPLIST_FILE = "VMDirectory_TEST-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
