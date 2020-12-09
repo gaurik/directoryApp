@@ -37,11 +37,10 @@ class EmployeeDetailUITests: XCTestCase {
         XCTAssert(app.staticTexts["Job title is Internal Applications Designer"].exists)
         XCTAssert(app.staticTexts["Created at"].exists)
         XCTAssert(app.staticTexts["Email ID"].exists)
-        XCTAssert(app.staticTexts["emailID is Louisa_Skiles@hotmail.com"].exists)
+        XCTAssert(app.buttons["emailID is Louisa_Skiles@hotmail.com"].exists)
         XCTAssert(app.staticTexts["Location"].exists)
         XCTAssert(app.staticTexts["Lives in North Pacific Ocean"].exists)
         XCTAssert(app.staticTexts["Phone Number"].exists)
-        XCTAssert(app.staticTexts["Phone Number is (918) 592-3724"].exists)
     }
 }
     

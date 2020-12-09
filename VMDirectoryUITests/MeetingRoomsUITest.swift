@@ -29,9 +29,6 @@ class MeetingRoomsUITest: XCTestCase {
         
         XCTAssertEqual(tabBar.buttons.count, 2)
         
-        //let meetingTabBarButton = tabBar.buttons["Meeting Rooms"]
-        //XCTAssert(meetingTabBarButton.exists)
-        
         let employeeTabBarButton = tabBar.buttons["Employees"]
         XCTAssert(employeeTabBarButton.exists)
     }

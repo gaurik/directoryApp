@@ -22,7 +22,7 @@ class ColorTests: XCTestCase {
     }
     
     func testInvalidColorCode() {
-        let color = UIColor.init(hex: "#000000000FFFFFF")
+        let _ = UIColor.init(hex: "#000000000FFFFFF")
         //XCTAssertEqual(color, UIColor.black)
     }
 }
